@@ -1,0 +1,40 @@
+body {
+background-color : black;
+}
+
+.fly-in {
+list-style : none;
+color : white;
+position : absolute;
+left : 50%;
+top : 50%;
+transform : translate(-50%,-50%);
+}
+
+.fly-in li{
+display : inline-block;
+font-size : 3.5em;
+transition : 4s;
+color : orange;
+}
+
+
+.hidden li{
+color : white;
+opacity : 0;
+}
+
+.hidden li:nth-child(1){transform : translate(-200px,200px);}
+.hidden li:nth-child(2){transform : translate(200px,20px);}
+.hidden li:nth-child(3){transform : translate(-500px,-80px);}
+.hidden li:nth-child(4){transform : translate(-20px,200px);}
+.hidden li:nth-child(5){transform : translate(250px,-100px);}
+.hidden li:nth-child(6){transform : translate(-200px,70px);}
+.hidden li:nth-child(7){transform : translate(-250px,-90px);}
+
+input {
+display : block;
+margin-left : auto;
+margin-right : auto;
+padding : 10px;
+}

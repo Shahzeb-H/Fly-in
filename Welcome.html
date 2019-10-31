@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<head>
+<title> Welcome </title>
+<link rel = "stylesheet" href = "stylesheet.css">
+</head>
+<body>
+<ul class = "fly-in hidden">
+<li> W </li>
+<li> E </li>
+<li> L </li>
+<li> C </li>
+<li> O </li>
+<li> M </li>
+<li> E </li>
+</ul>
+<input type = "button" value = "Click">
+
+<script src = "jquery-3.4.1.js"> </script>
+<script>
+$(document).ready(function(){
+$("input").click(function(){
+$(".fly-in").toggleClass("hidden");
+});
+});
+</script>
+</body>
+</html>
